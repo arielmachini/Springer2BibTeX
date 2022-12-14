@@ -10,3 +10,7 @@ https://gist.github.com/arielmachini/f6f299c69230e258f4e49ab9814b3087
 **Ejemplo:**\
 `python springerABibtex.py ./archivo1.csv ./archivo2.csv`<br/>\
 **Todos** los elementos contenidos en los archivos CSV que el script recibe como entrada se exportan a un mismo archivo `.bib`.
+
+## Idea de uso
+Tal como está escrito, este script debe ser utilizado en conjunto con `abstract_scrapper.py`. En el siguiente diagrama se describe cómo:<br/>\
+![Diagrama](https://i.imgur.com/7TVoFB7.png "Diagrama")
